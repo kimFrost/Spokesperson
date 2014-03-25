@@ -1,0 +1,41 @@
+
+/* Global Variables */
+
+// Options booleans
+$useAdaptive: false !global; // Media Querie mixin will skip if this ain't true
+$debug: false !global; // Show debug features
+$showClasses: false !global; // Show debug features
+$allowCrossAlter: true !global; // Allow modules to alter each other
+
+// Colors
+$color_white: #fff;
+$color_black: #000;
+
+// Brand Color (Additions 2014)
+$color_deepsea: #2d2d3a;
+$color_deepsea: #282a39; // Color correction
+$color_coldsea: #576163;
+$color_coldsea: #475254; // Color correction
+$color_navyocean: #709293;
+$color_greysky: #ccd4c7;
+$color_greysky: #c9d5c9; // Color correction
+$color_lightgrey: #eaecea;
+$color_lightgrey: #eaecea; // Color correction
+$color_almostwhite: #f8faf9;
+$color_almostwhite: #f8faf9; // Color correction
+$color_coralsea: #3C9090;
+$color_coralsea: #5d9395; // Color correction
+
+// Brand Color (2013)
+$color_darkGrey: #4b534b;
+$color_numbocean: #628181;
+$color_nearwhite: #ededed;
+$color_sand: #eeebd3;
+$color_grey: #b3baad;
+$color_highgrey: #b3baad;
+$color_lowgrey: #6d776f;
+$color_fullgreen: #00664c;
+$color_brightorange: #e76f18;
+
+
+

@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/timeruler-0.0.3.js" line="212" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5b98cab-cb55-4529-b94a-fbcdbf4ff816" name="Default" comment="" />
+    <ignored path="spokesperson.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="master.jade" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/assets/views/master.jade">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="26" column="0" selection-start="675" selection-end="675" vertical-scroll-proportion="0.5691244" vertical-offset="0" max-vertical-offset="868">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/assets/views/pages/index.jade">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="64" column="12" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.0" vertical-offset="1216" max-vertical-offset="1767">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="spokesperson" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="setup.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/setup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1024" column="18" selection-start="27471" selection-end="27471" vertical-scroll-proportion="0.0" vertical-offset="19111" max-vertical-offset="41059">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../thatworks/assets/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="22" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="2869">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timestring-0.0.21.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.21.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="334" column="33" selection-start="9656" selection-end="9656" vertical-scroll-proportion="0.5156125" vertical-offset="5702" max-vertical-offset="22002">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="58" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="2660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_module_timestring.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scss/module/_module_timestring.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="26" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1083">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_module_spokesperson.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scss/module/_module_spokesperson.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="5" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="9006">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_global_variables.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scss/global/_global_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="893">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../bongrain/assets/scss/global/_global_mixins.scss" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/scss/bongrain.scss" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/scss/global/_global_blockconstructor.scss" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/scss/global/_global_variables.scss" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/scss/layout/_layout_header.scss" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/scss/geramont.scss" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/views/startside.jade" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/views/index.jade" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/views/layout.jade" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/views/master.jade" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/views/frontpage.jade" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/scss/layout/_layout_content.scss" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/scss/module/_module_bongrain.scss" />
+        <option value="$PROJECT_DIR$/../bongrain/assets/scss/module/_module_brand.scss" />
+        <option value="$PROJECT_DIR$/timestring-0.0.10.js" />
+        <option value="$PROJECT_DIR$/css/spokesperson.css" />
+        <option value="$PROJECT_DIR$/assets/package.json" />
+        <option value="$PROJECT_DIR$/assets/script/setup.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.11.js" />
+        <option value="$PROJECT_DIR$/assets/scss/spokesperson.scss" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.12.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/swfobject/index_dynamic.html" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.13.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.14.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.15.js" />
+        <option value="$PROJECT_DIR$/assets/scss/global/_global_blockconstructor.scss" />
+        <option value="$PROJECT_DIR$/assets/views/pages/index.jade" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.16.min.js" />
+        <option value="$PROJECT_DIR$/scripts/spokesperson.min.js" />
+        <option value="$PROJECT_DIR$/scripts/spokesperson.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.16.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/enlightened-0.0.1.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/enlighten-0.0.1.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.17.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.18.js" />
+        <option value="R:/Umbraco_Rationel2014/sass/vendor/_spokesperson.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/global/_global_variables.scss" />
+        <option value="$PROJECT_DIR$/assets/views/master.jade" />
+        <option value="$PROJECT_DIR$/assets/scss/module/_module_timestring.scss" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.19.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.20.js" />
+        <option value="$PROJECT_DIR$/assets/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/setup.js" />
+        <option value="$PROJECT_DIR$/assets/scss/module/_module_spokesperson.scss" />
+        <option value="R:/Umbraco_Rationel2014/scripts/R2013/spokesperson.js" />
+        <option value="$PROJECT_DIR$/../thatworks/assets/package.json" />
+        <option value="$PROJECT_DIR$/../thatworks/assets/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/assets/js/libs/timestring-0.0.21.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="y" value="-326" />
+    <option name="width" value="1600" />
+    <option name="height" value="1406" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spokesperson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="reference.idesettings.emmet" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thatworks" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistory" value="//&#10;p&#10;&quot;&quot;&#10;==&#10;(&#10;." />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kim\Dropbox\htdocs\spokesperson\assets\js\libs" />
+      <recent name="C:\Users\kim\Dropbox\htdocs\spokesperson\assets\scss\module" />
+      <recent name="C:\Users\kim\Dropbox\htdocs\spokesperson\assets\js" />
+      <recent name="C:\Users\kim\Dropbox\htdocs\spokesperson" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5b98cab-cb55-4529-b94a-fbcdbf4ff816" name="Default" comment="" />
+      <created>1388393215321</created>
+      <updated>1388393215321</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="-326" width="1600" height="1406" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21068938" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" x="2073" y="543" width="1582" height="273" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27623263" sideWeight="0.49960598" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25320512" sideWeight="0.500394" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/timestring-0.0.10.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="38" selection-start="865" selection-end="865" vertical-scroll-proportion="0.47157726" vertical-offset="0" max-vertical-offset="14858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.10.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="34" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.42594075" vertical-offset="1539" max-vertical-offset="14858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.11.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="21" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.42594075" vertical-offset="380" max-vertical-offset="14858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/global/_old_global_blockconstructor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="169" selection-end="169" vertical-scroll-proportion="0.11000827" vertical-offset="0" max-vertical-offset="3097" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bongrain/assets/scss/module/_module_blocks.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="28" selection-start="660" selection-end="660" vertical-scroll-proportion="0.4871795" vertical-offset="0" max-vertical-offset="1501" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bongrain/assets/scss/module/_module_recipe.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="23" selection-start="373" selection-end="405" vertical-scroll-proportion="0.31430936" vertical-offset="0" max-vertical-offset="1209" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bongrain/assets/scss/global/_global_blockconstructor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="770" selection-end="770" vertical-scroll-proportion="0.4871795" vertical-offset="0" max-vertical-offset="5871" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/spokesperson.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.25144747" vertical-offset="0" max-vertical-offset="1209" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bongrain/assets/scss/module/_module_bongrain.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="7" selection-start="521" selection-end="521" vertical-scroll-proportion="0.3300248" vertical-offset="0" max-vertical-offset="1209" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bongrain/assets/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="0.2626728" vertical-offset="0" max-vertical-offset="868" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bongrain/assets/views/old/old_layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="27" selection-start="700" selection-end="700" vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="1767" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bongrain/assets/views/old/old_index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="248" selection-end="248" vertical-scroll-proportion="0.24078341" vertical-offset="0" max-vertical-offset="868" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.12.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="273" column="0" selection-start="7636" selection-end="7636" vertical-scroll-proportion="0.26285714" vertical-offset="4865" max-vertical-offset="16834" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/connect/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="104" selection-end="104" vertical-scroll-proportion="0.046042003" vertical-offset="0" max-vertical-offset="1238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/johndyer-mediaelement-4af8088/demo/testforfiles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="3" selection-start="606" selection-end="606" vertical-scroll-proportion="0.18612245" vertical-offset="0" max-vertical-offset="1225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/johndyer-mediaelement-4af8088/demo/mediaelementplayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="56" selection-start="3220" selection-end="3220" vertical-scroll-proportion="0.74603176" vertical-offset="342" max-vertical-offset="1919" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/mediaelement-and-player.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="80" selection-start="6966" selection-end="6966" vertical-scroll-proportion="0.24816327" vertical-offset="0" max-vertical-offset="3173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/_old_setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="34" selection-start="66" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="4674" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.13.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="449" column="45" selection-start="12275" selection-end="12275" vertical-scroll-proportion="0.48816326" vertical-offset="7933" max-vertical-offset="19000" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/swfobject/index_dynamic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="532" selection-end="532" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/swfobject/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="816" selection-end="816" vertical-scroll-proportion="0.26984128" vertical-offset="0" max-vertical-offset="1197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/_old_2setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="152" selection-end="152" vertical-scroll-proportion="0.13812602" vertical-offset="0" max-vertical-offset="7505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.14.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="673" column="13" selection-start="18398" selection-end="18398" vertical-scroll-proportion="1.3979183" vertical-offset="11041" max-vertical-offset="19912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/global/_global_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="12" selection-start="387" selection-end="387" vertical-scroll-proportion="0.06484642" vertical-offset="456" max-vertical-offset="5434" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.15.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="42" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.0" vertical-offset="1349" max-vertical-offset="19988" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/module/_old_module_spokesperson.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="137" selection-end="137" vertical-scroll-proportion="0.12572373" vertical-offset="0" max-vertical-offset="6745" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/global/_global_blockconstructor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="39" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.2936311" vertical-offset="1469" max-vertical-offset="7296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/timestring-0.0.16.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/spokesperson.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="66" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/spokesperson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="5" selection-start="550" selection-end="550" vertical-scroll-proportion="0.38368335" vertical-offset="38" max-vertical-offset="17024" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.16.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="37" selection-start="2183" selection-end="2183" vertical-scroll-proportion="0.3764045" vertical-offset="1622" max-vertical-offset="20862" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/enlighten-0.0.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="669" selection-end="669" vertical-scroll-proportion="0.3069467" vertical-offset="0" max-vertical-offset="4978" />
+      </provider>
+    </entry>
+    <entry file="file://R:/Umbraco_Rationel2014/sass/vendor/_spokesperson.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="392" selection-end="392" vertical-scroll-proportion="0.3206751" vertical-offset="19" max-vertical-offset="10773" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/global/_global_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.18.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="15" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.47878304" vertical-offset="1435" max-vertical-offset="21166" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/enlighten-0.0.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="21" selection-start="1630" selection-end="1630" vertical-scroll-proportion="0.25594294" vertical-offset="969" max-vertical-offset="4940" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="464" selection-end="465" vertical-scroll-proportion="0.21077655" vertical-offset="0" max-vertical-offset="5548" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.19.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="14" selection-start="2713" selection-end="2713" vertical-scroll-proportion="0.24179344" vertical-offset="2054" max-vertical-offset="22325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.17.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="0" selection-start="4729" selection-end="4729" vertical-scroll-proportion="0.48816326" vertical-offset="2746" max-vertical-offset="21166" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/module/_module_timestring.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1083">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.20.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="450" column="18" selection-start="13296" selection-end="13296" vertical-scroll-proportion="0.3634908" vertical-offset="8096" max-vertical-offset="21964" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/module/_module_spokesperson.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="383" selection-end="383" vertical-scroll-proportion="-0.0" vertical-offset="361" max-vertical-offset="9006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="19" selection-start="817" selection-end="817" vertical-scroll-proportion="0.2860539" vertical-offset="418" max-vertical-offset="2869" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="58" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="2660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://R:/Umbraco_Rationel2014/scripts/R2013/spokesperson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="751" column="25" selection-start="20782" selection-end="20782" vertical-scroll-proportion="0.42393026" vertical-offset="13734" max-vertical-offset="41059" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1024" column="18" selection-start="27471" selection-end="27471" vertical-scroll-proportion="0.0" vertical-offset="19111" max-vertical-offset="41059">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thatworks/assets/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.3541329" vertical-offset="0" max-vertical-offset="1234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thatworks/assets/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2869">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/views/pages/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="12" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.0" vertical-offset="1216" max-vertical-offset="1767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/views/master.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="675" selection-end="675" vertical-scroll-proportion="0.5691244" vertical-offset="0" max-vertical-offset="868">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/timestring-0.0.21.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="334" column="33" selection-start="9656" selection-end="9656" vertical-scroll-proportion="0.5156125" vertical-offset="5702" max-vertical-offset="22002">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

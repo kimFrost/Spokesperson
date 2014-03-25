@@ -1,0 +1,350 @@
+
+$_blockName: 'spokesperson';
+
+$_containerWidth: 960px;
+$_containerHeight: 540px;
+
+$_menuItemHeight: 30px;
+
+@include block($_blockName) {
+	position: relative;
+	display: block;
+	background-color: $color_black;
+	color: $color_white;
+	width: $_containerWidth;
+	height: $_containerHeight;
+	* {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	@include m(ie8) {
+		background-color: red;
+
+	}
+	@include e(overlay) {
+		@include fill();
+		display: block;
+		overflow: hidden;
+		@include e(menu) {
+			display: block;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			bottom: 50px;
+			left: 0;
+			list-style: none;
+			@include m(tonedOut) {
+				@include e(itemlv1) {
+					opacity: 0.5;
+				}
+			}
+			@include e(itemlv1) {
+				clear: both;
+				margin-bottom: 10px;
+				position: relative;
+				background-color: $color_darkGrey;
+				height: $_menuItemHeight;
+				float: left;
+				z-index: 50;
+				@include m(":after") {
+					@include skew(-20deg, 0);
+					@include transform-origin(0%, 0%);
+					content: "";
+					display: block;
+					position: absolute;
+					right: -5px;
+					top: 50%;
+					bottom: 0;
+					width: 5px;
+					background-color: $color_darkGrey;
+					z-index: 80;
+				}
+				@include m(":before") {
+					@include skew(20deg, 0);
+					@include transform-origin(0%, 100%);
+					content: "";
+					display: block;
+					position: absolute;
+					right: -5px;
+					top: 0;
+					bottom: 50%;
+					width: 5px;
+					background-color: $color_darkGrey;
+					z-index: 80;
+				}
+				@include m(holdbarhed) {
+					background-color: $color_darkGrey;
+					@include e(itemIcon) {
+						background-color: $color_darkGrey;
+						background-image: url("/img/icon_warning.png");
+						//width: image-width("img/icon_warning.png");
+						//height: image-height("img/icon_warning.png");
+					}
+					@include e(itemTitle) {
+						background-color: $color_darkGrey;
+					}
+					&:before,
+					&:after {
+					//@include m(":before") {
+						background-color: $color_darkGrey;
+					}
+				}
+				@include m(energi) {
+					background-color: $color_greysky;
+					color: $color_coldsea;
+					@include e(itemIcon) {
+						background-color: $color_greysky;
+						background-image: url("/img/icon_flower.png");
+						//width: image-width("img/icon_flower.png");
+						//height: image-height("img/icon_flower.png");
+					}
+					@include e(itemTitle) {
+						background-color: $color_greysky;
+					}
+					&:before,
+					&:after {
+					//@include m(":before") {
+						background-color: $color_greysky;
+					}
+				}
+				@include m(info) {
+					background-color: $color_numbocean;
+					@include e(itemIcon) {
+						background-color: $color_numbocean;
+						background-image: url("/img/icon_info.png");
+						//width: image-width("img/icon_info.png");
+						//height: image-height("img/icon_info.png");
+					}
+					&:before,
+					&:after {
+					//@include e(itemTitle) {
+						background-color: $color_numbocean;
+					}
+				}
+				@include m(vindue) {
+					background-color: $color_deepsea;
+					@include e(itemIcon) {
+						background-color: $color_deepsea;
+						background-image: url("/img/icon_door.png");
+						//width: image-width("img/icon_door.png");
+						//height: image-height("img/icon_door.png");
+					}
+					@include e(itemTitle) {
+						background-color: $color_deepsea;
+					}
+					&:before,
+					&:after {
+						//@include e(itemTitle) {
+						background-color: $color_deepsea;
+					}
+				}
+				@include m(focus){
+					opacity: 1.0 !important;
+					@include e(itemTitle) {
+						max-width: 300px;
+						padding: 0 10px;
+					}
+				}
+				&.is-playing,
+				&.is-showSubItems {
+					opacity: 1.0;
+					@include e(listlv2, "& >") {
+						@include translate(0px, 0px);
+					}
+				}
+				&.is-hoverShowSubItems {
+					opacity: 1.0;
+					.spokesperson__itemTitle {
+						max-width: 0 !important;
+						padding: 0 !important;
+					}
+					&:hover {
+						@include e(listlv2, "& >") {
+							@include translate(0px, 0px);
+						}
+					}
+				}
+				@include e(itemIcon) {
+					float: left;
+					display: block;
+					position: relative;
+					cursor: pointer;
+					z-index: 80;
+					background-position: center center;
+					background-repeat: no-repeat;
+					width: $_menuItemHeight;
+					height: $_menuItemHeight;
+					@include m(":hover") {
+						@include e(itemTitle, "+") {
+							max-width: 300px;
+							padding: 0 10px;
+						}
+					}
+				}
+				@include e(itemTitle) {
+					@include transition(all 300ms ease);
+					float: left;
+					display: block;
+					max-width: 0;
+					overflow: hidden;
+					position: relative;
+					height: $_menuItemHeight;
+					line-height: $_menuItemHeight;
+					white-space: nowrap;
+					z-index: 20;
+					font-family: 'EurostileNextW01-Cond';
+					letter-spacing: 1px;
+					font-size: 20px;
+					text-transform: uppercase;
+					vertical-align: middle;
+					padding: 0;
+					//EurostileLTStd
+				}
+				@include e(listlv2) {
+					@include transition(transform 1000ms ease);
+					@include clearfix();
+					@include translate(-100%, 0px);
+					display: block;
+					margin: 0;
+					padding: 0;
+					position: absolute;
+					height: $_menuItemHeight;
+					top: 0;
+					bottom: 0;
+					left: 100%;
+					//left: $_menuItemHeight;
+					z-index: 10;
+					ul {
+						@include clearfix();
+						display: block;
+						margin: 0;
+						padding: 0;
+						height: $_menuItemHeight;
+						list-style: none;
+						min-width: 2000px;
+						z-index: 10;
+						position: relative;
+						@include e(itemlv2) {
+							display: block;
+							float: left;
+							height: $_menuItemHeight;
+							line-height: $_menuItemHeight;
+							margin: 0;
+							padding: 0;
+							background-color: rgba(#fff,0.85);
+							color: #7d7d83;
+							position: relative;
+							padding-left: 20px;
+							padding-right: 20px;
+							cursor: pointer;
+							list-style: none;
+							text-align: center;
+							min-width: 120px;
+							font-family: 'EurostileNextW01-Cond';
+							letter-spacing: 1px;
+							text-transform: uppercase;
+							font-size: 15px;
+							z-index: 10;
+							@include m(":hover") {
+								background-color: #fff;
+								color: #000;
+								@include e(itemOverlay) {
+									@include translate(0px, 0px);
+									opacity: 1.0;
+								}
+							}
+							@include e(itemlv2, "& +") {
+								border-left: 1px solid rgba(0,0,0,0.3);
+							}
+							&.is-played {
+								background-color: #475254;
+								color: #fff;
+							}
+						}
+						@include e(itemOverlay) {
+							//display: none !important;
+							@include transition(all 150ms ease);
+							@include translate(0px, 10px);
+							display: block;
+							position: absolute;
+							bottom: 100%;
+							left: 10px;
+							right: 10px;
+							padding-bottom: 10px;
+							height: 110px;
+							opacity: 0;
+							z-index: 10;
+							cursor: pointer;
+
+							@include e(itemOverlayImg) {
+								display: block;
+								position: absolute;
+								bottom: 40px;
+								top: 0;
+								border: 1px solid #fff;
+								background-color: #fff;
+								left: 1px;
+								right: 1px;
+								overflow: hidden;
+								img {
+									display: block;
+									margin: 0;
+									width: 100%;
+									position: absolute;
+									bottom: 0px;
+								}
+							}
+							@include e(itemOverlayTitle) {
+								display: block;
+								position: absolute;
+								height: 30px;
+								border: 1px solid #fff;
+								background-color: #fff;
+								left: 1px;
+								right: 1px;
+								bottom: 11px;
+								font-family: 'Eurostile Next W01 Bold';
+								font-size: 10px;
+							}
+							@include m(":before"){
+								content: "";
+								display: block;
+								position: absolute;
+								bottom: 5px;
+								width: 10px;
+								height: 10px;
+								left: 50%;
+								margin-left: -5px;
+								background-color: #fff;
+								@include rotate(45deg);
+								z-index: -1;
+							}
+						}
+					}
+				}
+			}
+		}
+
+
+		@include e(menutest) {
+			position: absolute;
+			right: 20px;
+			top: 20%;
+			display: none;
+			//margin-top: -($_containerHeight / 2);
+			&.is-playing {
+				display: block;
+			}
+			&.is-active {
+				display: block;
+			}
+			@include e(spot) {
+				width: 100px;
+				height: 100px;
+				margin-bottom: 10px;
+				background: rgba(hotpink, 0.7);
+			}
+		}
+	}
+}

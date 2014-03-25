@@ -1,0 +1,468 @@
+
+$_blockName: 'spokesperson';
+
+$_containerWidth: 960px;
+$_containerHeight: 540px;
+
+$_menuItemHeight: 30px;
+
+@include block($_blockName) {
+	position: relative;
+	display: block;
+	background-color: $color_black;
+	color: $color_white;
+	width: $_containerWidth;
+	height: $_containerHeight;
+	* {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	@include m(ie8) {
+		//background-color: red;
+		//display: none;
+		@include e(itemlv1) {
+			@include e(listlv2) {
+				display: none;
+				@include e(itemlv2) {
+					background-color: #fff;
+				}
+			}
+			@include m(allowShowSubItems) {
+				@include m(showTitle) {
+					@include e(listlv2) {
+						display: block;
+					}
+				}
+			}
+			@include m(forceShowSubItems) {
+				@include e(listlv2) {
+					display: block;
+				}
+			}
+		}
+		@include e(spotsmenu) {
+			display: none;
+			opacity: 1;
+			&.is-playing {
+				display: block;
+			}
+			&.is-active {
+				display: block;
+			}
+		}
+	}
+	@include e(overlay) {
+		@include fill();
+		display: block;
+		overflow: hidden;
+		@include e(menu) {
+			display: block;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			bottom: 50px;
+			left: 0;
+			list-style: none;
+			@include e(itemlv1) {
+				clear: both;
+				margin-bottom: 10px;
+				position: relative;
+				background-color: $color_darkGrey;
+				height: $_menuItemHeight;
+				float: left;
+				z-index: 50;
+				@include m(":after") {
+					@include skew(-20deg, 0);
+					@include transform-origin(0%, 0%);
+					content: "";
+					display: block;
+					position: absolute;
+					right: -5px;
+					top: 50%;
+					bottom: 0;
+					width: 5px;
+					background-color: $color_darkGrey;
+					z-index: 80;
+				}
+				@include m(":before") {
+					@include skew(20deg, 0);
+					@include transform-origin(0%, 100%);
+					content: "";
+					display: block;
+					position: absolute;
+					right: -5px;
+					top: 0;
+					bottom: 50%;
+					width: 5px;
+					background-color: $color_darkGrey;
+					z-index: 80;
+				}
+				@include e(itemIcon) {
+					float: left;
+					display: block;
+					position: relative;
+					cursor: pointer;
+					z-index: 80;
+					background-position: center center;
+					background-repeat: no-repeat;
+					width: $_menuItemHeight;
+					height: $_menuItemHeight;
+				}
+				@include e(itemTitle) {
+					@include transition(all 300ms ease);
+					float: left;
+					display: block;
+					max-width: 0;
+					overflow: hidden;
+					position: relative;
+					height: $_menuItemHeight;
+					line-height: $_menuItemHeight;
+					white-space: nowrap;
+					z-index: 20;
+					font-family: 'EurostileNextW01-Cond';
+					letter-spacing: 1px;
+					font-size: 20px;
+					text-transform: uppercase;
+					vertical-align: middle;
+					padding: 0;
+					cursor: pointer;
+					//EurostileLTStd
+				}
+				@include e(listlv2) {
+					@include transition(transform 1000ms ease);
+					@include clearfix();
+					@include translate(-100%, 0px);
+					display: block;
+					margin: 0;
+					padding: 0;
+					position: absolute;
+					height: $_menuItemHeight;
+					top: 0;
+					bottom: 0;
+					left: 100%;
+					//left: $_menuItemHeight;
+					z-index: 10;
+					ul {
+						@include clearfix();
+						display: block;
+						margin: 0;
+						padding: 0;
+						height: $_menuItemHeight;
+						list-style: none;
+						min-width: 2000px;
+						z-index: 10;
+						position: relative;
+						@include e(itemlv2) {
+							display: block;
+							float: left;
+							height: $_menuItemHeight;
+							line-height: $_menuItemHeight;
+							margin: 0;
+							padding: 0;
+							background-color: rgba(#fff,0.85);
+							color: #7d7d83;
+							position: relative;
+							padding-left: 20px;
+							padding-right: 20px;
+							cursor: pointer;
+							list-style: none;
+							text-align: center;
+							min-width: 120px;
+							font-family: 'EurostileNextW01-Cond';
+							letter-spacing: 1px;
+							text-transform: uppercase;
+							font-size: 15px;
+							z-index: 10;
+							@include m(":hover") {
+								background-color: #fff;
+								color: #000;
+								@include e(itemOverlay) {
+									@include translate(0px, 0px);
+									opacity: 1.0;
+								}
+							}
+							@include e(itemlv2, "& +") {
+								border-left: 1px solid rgba(0,0,0,0.3);
+							}
+							&.is-played {
+								background-color: #475254;
+								color: #fff;
+							}
+						}
+						@include e(itemOverlay) {
+							@include transition(all 150ms ease);
+							@include translate(0px, 10px);
+							display: block;
+							position: absolute;
+							bottom: 100%;
+							left: 10px;
+							right: 10px;
+							padding-bottom: 10px;
+							height: 110px;
+							opacity: 0;
+							z-index: 10;
+							cursor: pointer;
+
+							@include e(itemOverlayImg) {
+								display: block;
+								position: absolute;
+								bottom: 40px;
+								top: 0;
+								border: 1px solid #fff;
+								background-color: #fff;
+								left: 1px;
+								right: 1px;
+								overflow: hidden;
+								img {
+									display: block;
+									margin: 0;
+									width: 100%;
+									position: absolute;
+									bottom: 0px;
+								}
+							}
+							@include e(itemOverlayTitle) {
+								display: block;
+								position: absolute;
+								height: 30px;
+								border: 1px solid #fff;
+								background-color: #fff;
+								left: 1px;
+								right: 1px;
+								bottom: 11px;
+								font-family: 'Eurostile Next W01 Bold';
+								font-size: 10px;
+							}
+							@include m(":before"){
+								@include rotate(45deg);
+								content: "";
+								display: block;
+								position: absolute;
+								bottom: 5px;
+								width: 10px;
+								height: 10px;
+								left: 50%;
+								margin-left: -5px;
+								background-color: #fff;
+								z-index: -1;
+							}
+						}
+					}
+				}
+
+
+			//	Theming
+			//--------------------------------------------------//
+				@include m(holdbarhed) {
+					background-color: $color_darkGrey;
+					@include e(itemIcon) {
+						background-color: $color_darkGrey;
+						background-image: url("/img/icon_warning.png");
+					}
+					@include e(itemTitle) {
+						background-color: $color_darkGrey;
+					}
+					&:before,
+					&:after {
+						background-color: $color_darkGrey;
+					}
+				}
+				@include m(energi) {
+					background-color: $color_greysky;
+					color: $color_coldsea;
+					@include e(itemIcon) {
+						background-color: $color_greysky;
+						background-image: url("/img/icon_flower.png");
+					}
+					@include e(itemTitle) {
+						background-color: $color_greysky;
+					}
+					&:before,
+					&:after {
+						background-color: $color_greysky;
+					}
+				}
+				@include m(info) {
+					background-color: $color_numbocean;
+					@include e(itemIcon) {
+						background-color: $color_numbocean;
+						background-image: url("/img/icon_info.png");
+					}
+					&:before,
+					&:after {
+						background-color: $color_numbocean;
+					}
+				}
+				@include m(vindue) {
+					background-color: $color_deepsea;
+					@include e(itemIcon) {
+						background-color: $color_deepsea;
+						background-image: url("/img/icon_door.png");
+					}
+					@include e(itemTitle) {
+						background-color: $color_deepsea;
+					}
+					&:before,
+					&:after {
+						//@include e(itemTitle) {
+						background-color: $color_deepsea;
+					}
+				}
+
+
+			//	itemlv1 States
+			//--------------------------------------------------//
+				@include m(allowShowSubItems) {
+					@include m(showTitle) {
+						@include e(listlv2) {
+							@include translate(0px, 0px);
+						}
+					}
+				}
+				@include m(forceShowSubItems) {
+					@include e(listlv2) {
+						@include translate(0px, 0px);
+					}
+				}
+				@include m(showTitle) {
+					@include e(itemTitle) {
+						max-width: 300px;
+						padding: 0 10px;
+					}
+				}
+				@include m(forceShowTitle) {
+					@include e(itemTitle) {
+						max-width: 300px;
+						padding: 0 10px;
+					}
+				}
+				@include m(disableTitle) {
+					@include m(showTitle) {
+						@include e(itemTitle) {
+							max-width: 0px;
+							padding: 0px;
+						}
+					}
+					@include m(forceShowTitle) {
+						@include e(itemTitle) {
+							max-width: 0px;
+							padding: 0px;
+						}
+					}
+				}
+			}
+
+		//	menu States
+		//--------------------------------------------------//
+			@include m(tonedOut) {
+				@include e(itemlv1) {
+					opacity: 0.5;
+					@include m(overrideTonedOut) {
+						opacity: 1.0;
+					}
+				}
+			}
+		}
+		@include e(mobileMovieEnded) {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			display: block;
+			z-index: 10;
+			display: none;
+			&.is-active {
+				display: block;
+			}
+			&.is-playing {
+				display: block;
+			}
+		}
+		@include e(spotsmenu) {
+			@include transition(all 300ms ease);
+			@include translate(145px, 0px);
+			position: absolute;
+			opacity: 0;
+			right: 20px;
+			top: 50%;
+			margin-top: -(($_containerHeight - (85px + 10px) * 3)/2);
+			color: $color_white;
+			z-index: 50;
+			display: block;
+			&.is-playing {
+				@include translate(0px, 0px);
+				opacity: 1;
+			}
+			&.is-active {
+				@include translate(0px, 0px);
+				opacity: 1;
+			}
+			@include e(spot) {
+				display: block;
+				width: 145px;
+				height: 85px;
+				margin-bottom: 10px;
+				position: relative;
+				padding: 15px;
+				background: $color_deepsea;
+				&:before {
+					@include rotate(45deg);
+					content: "";
+					display: block;
+					position: absolute;
+					right: -6px;
+					top: 50%;
+					width: 12px;
+					height: 12px;
+					margin-top: -6px;
+					background-color: $color_deepsea;
+				}
+				@include m(theme1) {
+					background-color: $color_deepsea;
+					color: $color_white;
+					&:before {
+						background-color: $color_deepsea;
+					}
+				}
+				@include m(theme2) {
+					background-color: $color_coldsea;
+					color: $color_white;
+					&:before {
+						background-color: $color_coldsea;
+					}
+				}
+				@include m(theme3) {
+					background-color: $color_navyocean;
+					color: $color_white;
+					&:before {
+						background-color: $color_navyocean;
+					}
+				}
+				@include m(theme4) {
+					background-color: $color_greysky;
+					color: $color_deepsea;
+					&:before {
+						background-color: $color_greysky;
+					}
+				}
+			}
+			@include e(line1 line2 line3) {
+				font-size: 12px;
+				font-family: "EurostileLTW01-Cn";
+				text-transform: uppercase;
+			}
+			@include e(line1) {
+				letter-spacing: 1px;
+			}
+			@include e(line2) {
+				font-family: "Eurostile LT W01 Bold";
+			}
+			@include e(line3) {
+				font-size: 10px;
+				letter-spacing: 1px;
+			}
+		}
+	}
+}

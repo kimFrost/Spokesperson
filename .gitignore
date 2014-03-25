@@ -1,0 +1,10 @@
+
+css/
+fonts/
+img/
+node_modules/
+scripts/
+video/
+*.html
+
+assets/.sass-cache

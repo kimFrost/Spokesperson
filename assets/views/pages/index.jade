@@ -1,0 +1,87 @@
+extends ../master
+
+block append content
+	div.spokesperson__overlay
+		ul.spokesperson__menu
+
+			li.spokesperson__itemlv1.spokesperson__itemlv1--holdbarhed
+				div.spokesperson__itemIcon(data-spokesperson="FILM_04")
+				div.spokesperson__itemTitle Holdbarhedstestet
+				div.spokesperson__listlv2
+					ul
+						li.spokesperson__itemlv2(data-spokesperson="FILM_05")
+							span Indbrudssikring
+						li.spokesperson__itemlv2(data-spokesperson="FILM_06")
+							span Slitage
+							a.spokesperson__itemOverlay(href="#")(target="_blank")
+								div.spokesperson__itemOverlayImg
+									img(src="http://placehold.it/200x120")
+								div.spokesperson__itemOverlayTitle Title
+						li.spokesperson__itemlv2(data-spokesperson="FILM_07")
+							span Vandtæthed
+						li.spokesperson__itemlv2(data-spokesperson="FILM_08")
+							span Udvidet vandtæthed
+						li.spokesperson__itemlv2(data-spokesperson="FILM_09")
+							span Modstandskraft
+
+			li.spokesperson__itemlv1.spokesperson__itemlv1--energi
+				div.spokesperson__itemIcon(data-spokesperson="FILM_10")
+				div.spokesperson__itemTitle Energirigtighed
+				div.spokesperson__listlv2
+					ul
+						li.spokesperson__itemlv2(data-spokesperson="FILM_11")
+							span Energirigtighed
+							a.spokesperson__itemOverlay(href="#")(target="_blank")
+								div.spokesperson__itemOverlayImg
+									img(src="http://placehold.it/200x120")
+								div.spokesperson__itemOverlayTitle Title
+						li.spokesperson__itemlv2(data-spokesperson="FILM_12")
+							span Bæredygtighed
+
+			li.spokesperson__itemlv1.spokesperson__itemlv1--vindue
+				div.spokesperson__itemIcon(data-spokesperson="FILM_13")
+				div.spokesperson__itemTitle Vælg dit vindue
+				div.spokesperson__listlv2
+					ul
+						li.spokesperson__itemlv2(data-spokesperson="FILM_14")
+							span Klassisk byggestil
+						li.spokesperson__itemlv2(data-spokesperson="FILM_16")
+							span Moderne byggestil
+						li.spokesperson__itemlv2(data-spokesperson="FILM_17")
+							span Lavenergi- og passivehuse
+							a.spokesperson__itemOverlay(href="#")(target="_blank")
+								div.spokesperson__itemOverlayImg
+									img(src="http://placehold.it/200x120")
+								div.spokesperson__itemOverlayTitle Title
+
+			li.spokesperson__itemlv1.spokesperson__itemlv1--info
+				div.spokesperson__itemIcon(data-spokesperson="FILM_19")
+				div.spokesperson__itemTitle Indhent et tilbud
+
+
+		div.spokesperson__spotsmenu(data-timestring-group="vindueLinksGroup")
+			a.spokesperson__spot.spokesperson__spot--theme1
+				div.spokesperson__line1 Gå til
+				div.spokesperson__line2 åbne-/lukke funktioner
+				//div.spokesperson__line3 (Henvisning til uderside)
+			a.spokesperson__spot.spokesperson__spot--theme3
+				div.spokesperson__line1 Gå til
+				div.spokesperson__line2 størrelse & farver
+				//div.spokesperson__line3 (Henvisning til uderside)
+			a.spokesperson__spot.spokesperson__spot--theme4
+				div.spokesperson__line1 Gå til
+				div.spokesperson__line2 ruder
+				//div.spokesperson__line3 (Henvisning til uderside)
+
+
+		div.spokesperson__spotsmenu(data-timestring-group="indhentTilbudGroup")
+			a.spokesperson__spot.spokesperson__spot--theme1
+				div.spokesperson__line1 Find
+				div.spokesperson__line2 nærmeste forhandler og udstilling
+			a.spokesperson__spot.spokesperson__spot--theme3
+				div.spokesperson__line1 Prøv PrisBeregneren
+				div.spokesperson__line2 eller indhent et tilbud
+			a.spokesperson__spot.spokesperson__spot--theme4
+				div.spokesperson__line1 Kontakt
+				div.spokesperson__line2 Rationel
+

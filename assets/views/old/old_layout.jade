@@ -1,0 +1,88 @@
+div#suzuki.st-scrollSpy
+	header.l-header
+		div.l-header-content
+			div.l-header-logo
+				div.shadow
+				a(href="#")
+					img(src="/img/logo.png",alt="Suzuki")
+			nav.l-header-nav
+				ul
+					li
+						a(href="#") Modeller
+					li
+						a(href="#") Købsguide
+					li
+						a(href="#") Suzukiejer
+					li
+						a(href="#") Om Suzuki
+			div.l-header-dealer
+				a(href="#") Find Suzuki forhandler
+	div.l-background
+	div.l-partials(partial-hub)
+		//-*** IMPORTANT that .l-partials-nav comes before .l-partials-list to make use of adjacent selector ***//
+		//include layout_pagenav
+		//include layout_pagenav2
+		//include layout_partialnav
+		div.l-partials-list
+			//include modules
+	//include layout_sticky
+	footer.l-footer
+		div.l-footer-content
+			div.l-footer-spots
+				ul
+					li
+						div.l-footer-spotsIcon
+							span.icon-service-engine
+						div.l-footer-spotsHead
+							| Et godt bilkøb
+							br
+							| hele vehen rundt
+						div.l-footer-spotsLink
+							a Hvorfor Suzuki?
+					li
+						div.l-footer-spotsIcon
+							span.icon-service-engine
+						div.l-footer-spotsHead
+							| Finansiering
+							br
+							| kun 2.95%
+						div.l-footer-spotsLink
+							a Læs om finansiering
+					li
+						div.l-footer-spotsIcon
+							span.icon-service-engine
+						div.l-footer-spotsHead
+							| 47 forhandlere
+							br
+							| i hele landet
+						div.l-footer-spotsLink
+							a Book prøvetur
+			div.spacer
+				div.spacer-line
+			div.l-footer-social
+				div.l-footer-socialHead Følg os på nettet:
+				div.l-footer-socialFacebook Facebook
+				div.l-footer-socialYoutube Youtube
+			div.l-footer-newsletter
+				p
+					| Tilmeld dig Suzuki’s nyhedsbrev, og få alle de seneste tilbud,
+					| nyheder, opdatering og indkaldelser direkte i din inbox via email:
+				form
+					input(type="email",placeholder="email")
+					input(type="submit",value="Tilmeld")
+
+			div.l-footer-contact
+				p Suzuki Bilimport Danmark A/S
+				p 4600 Køge
+				p Tlf: 56 65 66 00
+				p
+					a kontakt@suzuki.dk
+			div.spacer
+				div.spacer-line
+			div.l-footer-info
+				div.l-footer-infoLeft
+					p De oplyste priser pr. den 25. april 2013 er vejledende udsalgspriser excl. leveringsomkostninger (kr. 3.680 for personvogne og kr. 4.280 for varevogne).
+					p Der tages forbehold for trykfejl og eventuelle afgiftsændringer. Endvidere forbeholdes ret til prisændringer uden forudgående varsel.
+				div.l-footer-infoRight
+					a Mere om de juridiske forhold her
+					p Webdesign af RBLM & NöRD
