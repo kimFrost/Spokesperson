@@ -1038,13 +1038,16 @@ $(function() {
 
 		spokesperson.timestring.showGroup("frontpageIntroMsg");
 
-		spokesperson.timestring.init();
+		//spokesperson.timestring.init();
 
 		window.spokesperson = spokesperson;
 
 		$('.l-newPageHeader__play').on('click', function() {
-			spokesperson.timestring.hideGroup("frontpageIntroMsg");
-			spokesperson.timestring.play("FILM_01");
+			spokesperson.timestring.init();
+			setTimeout(function() {
+				spokesperson.timestring.hideGroup("frontpageIntroMsg");
+				spokesperson.timestring.play("FILM_01");
+			},0);
 		});
 	}
 
