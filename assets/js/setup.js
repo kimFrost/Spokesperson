@@ -378,13 +378,21 @@ $(function() {
 				video: showOnlyVideo,
 				flash: drawInFlash
 			},
-			volume: 0.0,
+			volume: 1.0,
 			fixedUpdateInterval: 500
 		});
 
 		spokesperson.timestring.addScene({
 			id: "SpokesPerson",
 			triggers: [
+				{
+					trigger: "__init",
+					target: "FILM_03_loop_kokken_(total)",
+					action: function(api) {
+						//console.log("Smile geoffrey, goddamit, SMILE!!!");
+						api.target.play();
+					}
+				}
 				/*
 				 {
 				 trigger: "__init",
@@ -1038,18 +1046,41 @@ $(function() {
 
 		spokesperson.timestring.showGroup("frontpageIntroMsg");
 
-		//spokesperson.timestring.init();
+		spokesperson.timestring.init();
 
 		window.spokesperson = spokesperson;
 
+		//spokesperson.timestring.play("FILM_01", true);
+
 		$('.l-newPageHeader__play').on('click', function() {
-			spokesperson.timestring.init();
+			//spokesperson.timestring.init();
 			setTimeout(function() {
 				spokesperson.timestring.hideGroup("frontpageIntroMsg");
 				spokesperson.timestring.play("FILM_01");
 			},0);
 		});
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

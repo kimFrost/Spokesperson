@@ -18,9 +18,9 @@ module.exports = function (grunt) {
 					//'js/libs/jquery-1.11.0.min.js',
 					//'js/libs/mediaelement-and-player.js',
 					//'js/libs/swfobject.js',
-					'js/libs/timestring-0.0.21.js'
+					'js/libs/timestring-0.0.22.js'
 				],
-				dest: '../scripts/timestring-0.0.21.js'
+				dest: '../scripts/timestring-0.0.22.js'
 			},
 			enligthen: {
 				src: [
@@ -41,7 +41,7 @@ module.exports = function (grunt) {
 			},
 			head: {
 				src: '<%= concat.head.dest %>',
-				dest: '../scripts/timestring-0.0.21.min.js'
+				dest: '../scripts/timestring-0.0.22.min.js'
 			},
 			enligthen: {
 				src: '<%= concat.head.dest %>',

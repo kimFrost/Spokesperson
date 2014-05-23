@@ -24,7 +24,7 @@ $alterationList: () !global;
 	@if $allowCrossAlter {
 		$alterPoint: ();
 		$alterPoint: append($alterPoint, $stringName);
-		$alterPoint: append($alterPoint, #{&});
+		//$alterPoint: append($alterPoint, #{&}); // am I even using this ?
 		& #{$stringName} {
 			@content;
 		}
