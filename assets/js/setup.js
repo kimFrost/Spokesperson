@@ -1052,6 +1052,11 @@ $(function() {
 
 		//spokesperson.timestring.play("FILM_01", true);
 
+		// Hide background on none touch devices. Cause of autoplay fail
+		if (!isTouch) {
+			$('.l-newPageHeader__bg').hide();
+		}
+
 		$('.l-newPageHeader__play').on('click', function() {
 			//spokesperson.timestring.init();
 			setTimeout(function() {
